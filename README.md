@@ -12,8 +12,13 @@ To get the IntelliJ DynamoDB plugin visit [Jetbrains Marketplace](https://plugin
 To get a quick tour of basic IntelliJ DynamoDB features, see the [introduction video](https://youtu.be/E1KLrgyA83w) (2 minutes).
 
 ![IntelliJ DynamoDB](doc/IntelliJ_DynamoDB_Plugin.webp)
+
 ![IntelliJ DynamoDB Connections](doc/multiple_connections.webp)
+
 ![IntelliJ DynamoDB Table View](doc/table_view.webp)
+
 ![IntelliJ DynamoDB CRUD](doc/crud.webp)
+
 ![IntelliJ DynamoDB query dsl](doc/query_dsl.webp)
+
 ![IntelliJ DynamoDB partiql](doc/partiql.webp)
