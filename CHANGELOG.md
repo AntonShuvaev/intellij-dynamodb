@@ -1,11 +1,26 @@
 Change Log
 ----------
+
+## [2022.3.1]
+### Fixed
+- [\#18](https://github.com/AntonShuvaev/intellij-dynamodb/issues/18) Fixed error when creating item with unicode symbol
+
+### Added
+- Added operations DescribeImport, ListImports, ImportTable
+- Added ability to choose custom color for connection
+- Added aws regions me-central-1, eu-central-2
+- Added help action group
+
+### Changed
+- Updated DynamoDB documentation
+
 ## 2022.3.0
 ### Fixed
 - [\#17](https://github.com/AntonShuvaev/intellij-dynamodb/issues/17) DynamoDB language injection doesn't handle ? parameter placements
 - Table row numbers are incorrect when switch between different requests
 - NullPointerException when applying "Wrap with double quotes" quick fix
 - TraceableDisposable$DisposalException might be thrown in some cases
+
 ### Added
 - Show consumed capacity in the result table
 - Show in history search only matching requests
@@ -22,6 +37,7 @@ Change Log
 ## 2022.2.1
 ### Added
 - [\#13](https://github.com/AntonShuvaev/intellij-dynamodb/issues/13) Added ability to specify .aws/config file along with .aws/credentials file
+
 ### Fixed
 - NullPointerException might occur in import dialog
 
@@ -29,16 +45,18 @@ Change Log
 ### Added
 - Show list of consoles in the explorer
 - Compatibility with IntelliJ Platform 2022.2
+
 ### Changed
 - [\#9](https://github.com/AntonShuvaev/intellij-dynamodb/issues/9) Favorites moved to the explorer
+
 ### Fixed
 - [\#10](https://github.com/AntonShuvaev/intellij-dynamodb/issues/10) Filter resets every time I run a query
-
 
 ## 2022.1.9
 ### Fixed
 - com.intellij.diagnostic.PluginException might occur
 - Field name mapping in export does not work correctly
+
 ### Added
 - Ability to send error reports to the developer
 
@@ -58,7 +76,6 @@ Change Log
 - The error might occur when not default theme is used
 
 ## 2022.1.5
-
 ### Fixed
 - Fixed memory leak
 
@@ -68,6 +85,7 @@ Change Log
 - Cache fields from previous requests to use them in autocompletion 
 - Show backups in the explorer tree
 - \#2 AWS SSO Support (Requires sso login with AWS CLI)
+
 ### Fixed
 - \#1 only shows the first 50 tables
 - Export to Dump file might generate incorrect Create table request
@@ -77,14 +95,17 @@ Change Log
 - Gzipping export files
 - Import from CSV, JSON, DynamoDB JSON and Dump files (or gzipped files)
 - Copying tables
+
 ### Changed
 - Favorite requests moved to Bookmarks tool window
+
 ### Fixed
 - Fixed exporting all items
 
 ## 2022.1.2
 ### Fixed
 - Tables may not be refreshed in database explorer tree
+
 ### Added
 - Adding, editing and deleting rows in tables
 - Multilevel table header
