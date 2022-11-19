@@ -7,6 +7,8 @@
 It is designed to query and manage DynamoDB database.
 You can connect to local or cloud DynamoDB, manage it, browse and edit your data.
 
+To get more information about features visit [documentation](https://www.intellij-dynamodb.com/docs/getting-started/overview/)
+
 To get the IntelliJ DynamoDB plugin visit [Jetbrains Marketplace](https://plugins.jetbrains.com/plugin/18896-dynamodb).
 
 To get a quick tour of basic IntelliJ DynamoDB features, see the [introduction video](https://youtu.be/E1KLrgyA83w) (2 minutes).
