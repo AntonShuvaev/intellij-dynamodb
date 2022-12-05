@@ -1,7 +1,17 @@
 Change Log
 ----------
+## 2022.3.3
+### Fixed
+- Regression: Add to favorites dialog is not working
 
-## [2022.3.1]
+## 2022.3.2
+### Fixed
+- [\#20](https://github.com/AntonShuvaev/intellij-dynamodb/issues/20) Tables are not shown if you have no permissions for some of them
+- [\#21](https://github.com/AntonShuvaev/intellij-dynamodb/issues/21) Support ScyllaDB
+- TraceableDisposable$DisposalException thrown in some cases
+
+
+## 2022.3.1
 ### Fixed
 - [\#18](https://github.com/AntonShuvaev/intellij-dynamodb/issues/18) Fixed error when creating item with unicode symbol
 
