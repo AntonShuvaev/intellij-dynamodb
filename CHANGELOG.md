@@ -1,5 +1,16 @@
 Change Log
 ----------
+## 2022.3.5
+### Fixed
+- "JsonParseException: Unexpected character" error occurs in some cases
+### Added
+- [\#24](https://github.com/AntonShuvaev/intellij-dynamodb/issues/24) Support for assume role with MFA
+
+## 2022.3.4
+### Fixed
+- "java.lang.VerifyError" error occurs when using "Move statement" action
+- [\#19](https://github.com/AntonShuvaev/intellij-dynamodb/issues/19) Support operator "!=" in PartiQL and filter expression
+
 ## 2022.3.3
 ### Fixed
 - Regression: Add to favorites dialog is not working
