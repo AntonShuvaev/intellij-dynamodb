@@ -1,5 +1,17 @@
 Change Log
 ----------
+## 2023.1.0 (2023-03-16)
+### Added
+- [\#28](https://github.com/AntonShuvaev/intellij-dynamodb/issues/28) Support for proxy
+- Recent DynamoDB files are stored and can be opened from the "Recent Files"
+- Support for 2023.1 IDEs
+### Changed
+- DynamoDB toolwindow icon changed to the monochrome version
+### Fixed
+- DynamoDB files are not correctly shown in "Recent Files" list
+- [\#22](https://github.com/AntonShuvaev/intellij-dynamodb/issues/22) JSON import fails to read file with single null value 
+- [\#23](https://github.com/AntonShuvaev/intellij-dynamodb/issues/23) Bad conversion of JSON null field to binary
+
 ## 2022.3.5
 ### Fixed
 - "JsonParseException: Unexpected character" error occurs in some cases
