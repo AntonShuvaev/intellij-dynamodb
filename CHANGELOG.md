@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2023.1.1 (2023-04-03)
+### Fixed
+- [\#29](https://github.com/AntonShuvaev/intellij-dynamodb/issues/29) Failed to refresh process-based credentials
+
 ## 2023.1.0 (2023-03-16)
 ### Added
 - [\#28](https://github.com/AntonShuvaev/intellij-dynamodb/issues/28) Support for proxy
