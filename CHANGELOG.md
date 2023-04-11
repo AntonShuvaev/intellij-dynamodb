@@ -1,5 +1,22 @@
 Change Log
 ----------
+## 2023.1.4 (2023-04-11)
+### Fixed
+- [\#31](https://github.com/AntonShuvaev/intellij-dynamodb/issues/31) Datagrip cannot successfully restart with plugin installed
+### Changed
+- Do not automatically execute queries from opened files after IDE restart
+
+## 2023.1.3 (2023-04-10)
+### Fixed
+- [\#30](https://github.com/AntonShuvaev/intellij-dynamodb/issues/30) Ability to trust self-signed certificates
+- Credentials might be lost after IDE restart on Windows
+
+## 2023.1.2 (2023-04-07)
+### Added
+- [\#30](https://github.com/AntonShuvaev/intellij-dynamodb/issues/30) Ability to trust self-signed certificates
+- Action to change default page size
+- Ability to create DynamoDB file from project view context menu
+
 ## 2023.1.1 (2023-04-03)
 ### Fixed
 - [\#29](https://github.com/AntonShuvaev/intellij-dynamodb/issues/29) Failed to refresh process-based credentials
