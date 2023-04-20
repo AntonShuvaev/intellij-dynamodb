@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2023.1.5 (2023-04-20)
+### Fixed
+- [\#32](https://github.com/AntonShuvaev/intellij-dynamodb/issues/32) Not working with YDB Documents tables
+
 ## 2023.1.4 (2023-04-11)
 ### Fixed
 - [\#31](https://github.com/AntonShuvaev/intellij-dynamodb/issues/31) Datagrip cannot successfully restart with plugin installed
