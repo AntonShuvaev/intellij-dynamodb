@@ -1,5 +1,17 @@
 Change Log
 ----------
+## 2023.2.0 (2023-05-15)
+### Added
+- The query builder now automatically updates to display the generated query when a `scan` or `query` request is executed.
+- When switching between requests, the response view automatically updates to show the cached response.
+- Query builder now supports `null` values.
+- Added the ability to zoom in the result table.
+- You can now move multi-level columns in the result table.
+- Structure view (`Cmd+7`) for DynamoDB tables with the ability to navigate to a column and hide/show columns.
+- A link to the User Experience Survey has been added to the help action group.
+### Fixed
+- The query builder now is not hidden when query is not valid.
+
 ## 2023.1.5 (2023-04-20)
 ### Fixed
 - [\#32](https://github.com/AntonShuvaev/intellij-dynamodb/issues/32) Not working with YDB Documents tables
