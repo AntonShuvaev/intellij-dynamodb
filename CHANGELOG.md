@@ -1,5 +1,10 @@
 Change Log
 ----------
+## 2023.2.1 (2023-07-12)
+### Fixed
+- "IllegalArgumentException: Wrong offsets" might occur in some cases
+- Other minor fixes
+
 ## 2023.2.0 (2023-05-15)
 ### Added
 - The query builder now automatically updates to display the generated query when a `scan` or `query` request is executed.
