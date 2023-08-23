@@ -1,5 +1,24 @@
 Change Log
 ----------
+## 2023.2.2 (2023-08-23)
+### Added
+- The ability to save queries
+- Display of saved queries in the query history popup
+- Display of saved requests in the request history popup
+- [\#38](https://github.com/AntonShuvaev/intellij-dynamodb/issues/38) Open Edit Item dialog by double-clicking on the row number or by ctrl + double-clicking on the row
+- [\#35](https://github.com/AntonShuvaev/intellij-dynamodb/issues/35) Copy items to another table
+### Changed
+- Tables can be opened in Data Browser or REST Console
+- Favorite requests, queries and consoles are now displayed within the cluster node
+- Store request history and connection details separately
+### Fixed
+- [\#34](https://github.com/AntonShuvaev/intellij-dynamodb/issues/34) Submitting error report doesn't work
+- [\#39](https://github.com/AntonShuvaev/intellij-dynamodb/issues/39) Dragging columns should be preserved if you refresh query
+- [\#40](https://github.com/AntonShuvaev/intellij-dynamodb/issues/40) Expanding edit window doesn't expand textarea
+- Table cell popup editor turns green when searching
+- "IllegalStateException: Do not change documents during undo as it will break undo sequence" might occur in some cases
+- Various minor fixes
+
 ## 2023.2.1 (2023-07-12)
 ### Fixed
 - "IllegalArgumentException: Wrong offsets" might occur in some cases
