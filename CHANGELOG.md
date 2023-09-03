@@ -1,5 +1,15 @@
 Change Log
 ----------
+## 2023.2.3 (2023-09-04)
+### Added
+- Query builder can now specify the operation type (scan, query, or auto for automatic selection of the appropriate operation)
+- Query builder can now specify the index name (or use 'auto' for automatic selection of the appropriate index)
+- Query builder can now specify the sort order when using a range key
+### Changed
+- Improved syntax for the `begins_with` and `contains` functions in the query builder
+### Fixed
+- Fixed the usage of the `IN` operator in the query builder
+
 ## 2023.2.2 (2023-08-23)
 ### Added
 - The ability to save queries
