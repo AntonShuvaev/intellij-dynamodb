@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2023.2.4 (2023-09-06)
+### Fixed
+- [\#42](https://github.com/AntonShuvaev/intellij-dynamodb/issues/42) Regression: Export doesn't work
+
 ## 2023.2.3 (2023-09-04)
 ### Added
 - Query builder can now specify the operation type (scan, query, or auto for automatic selection of the appropriate operation)
