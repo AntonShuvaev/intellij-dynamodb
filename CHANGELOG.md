@@ -1,5 +1,15 @@
 Change Log
 ----------
+## 2023.2.5 (2023-09-11)
+### Added
+- 'Inlined' table view that displays attribute names directly in cells
+- highlighting for groups of items with identical attributes
+- option to display map attributes as either flattened or unflattened
+
+### Fixed
+- regression where PartiQL queries did not work
+- other minor issues
+
 ## 2023.2.4 (2023-09-06)
 ### Fixed
 - [\#42](https://github.com/AntonShuvaev/intellij-dynamodb/issues/42) Regression: Export doesn't work
