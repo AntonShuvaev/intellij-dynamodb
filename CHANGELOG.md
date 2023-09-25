@@ -1,5 +1,14 @@
 Change Log
 ----------
+## 2023.2.6 (2023-09-25)
+### Added
+- [\#43](https://github.com/AntonShuvaev/intellij-dynamodb/issues/43) Connection settings for Local DynamoDB with just a custom endpoint
+- Ability to copy table cell values to other cells
+### Fixed
+- If you use the GitHub Copilot plugin, you can now use it for DynamoDB files
+- Show columns in the table in the same order as in ProjectionExpression or PartiQL SELECT clause
+- Columns in the 'Inlined' table view are shown incorrectly when using ProjectionExpression
+
 ## 2023.2.5 (2023-09-11)
 ### Added
 - 'Inlined' table view that displays attribute names directly in cells
