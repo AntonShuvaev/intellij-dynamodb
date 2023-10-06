@@ -1,8 +1,20 @@
 Change Log
 ----------
+
+## 2023.2.7 (2023-10-06)
+### Added
+- [#45](https://github.com/AntonShuvaev/intellij-dynamodb/issues/45) Ability to sort items in the table by clicking on the column header
+- Option to show only queries for the current table in the query history popup
+### Fixed
+- [#46](https://github.com/AntonShuvaev/intellij-dynamodb/issues/46) CSV export not exporting column headers
+- [#44](https://github.com/AntonShuvaev/intellij-dynamodb/issues/44) Deleting table does not refresh the list of tables
+- Fixed UnsupportedFlavorException when copying text into table cell
+- Fixed "Slow operations are prohibited on EDT" error in 2023.3 EAP
+
 ## 2023.2.6 (2023-09-25)
 ### Added
 - [\#43](https://github.com/AntonShuvaev/intellij-dynamodb/issues/43) Connection settings for Local DynamoDB with just a custom endpoint
+- Option to show only queries for the current table in the query history popup
 - Ability to copy table cell values to other cells
 ### Fixed
 - If you use the GitHub Copilot plugin, you can now use it for DynamoDB files
