@@ -1,5 +1,14 @@
 Change Log
 ----------
+## 2023.2.8 (2023-10-16)
+### Added
+- JSON5 now supported in the request editor (allows trailing commas and property names without quotes)
+- Special icon for TTL attribute in table header
+- Hovering over the cell with TTL timestamp shows tooltip with date and time
+### Fixed
+- [#48](https://github.com/AntonShuvaev/intellij-dynamodb/issues/48) table names with a dot are truncated in editor tabs
+- validation in import/export dialog is not working correctly in 2023.3 EAP
+- other minor issues
 
 ## 2023.2.7 (2023-10-06)
 ### Added
