@@ -1,5 +1,17 @@
 Change Log
 ----------
+## 2023.3.0 (2023-11-27)
+### Added
+- [#11](https://github.com/AntonShuvaev/intellij-dynamodb/issues/11) Show request logs and results in the Services tool window
+- [#50](https://github.com/AntonShuvaev/intellij-dynamodb/issues/50) Tables list search and filtering
+- [#51](https://github.com/AntonShuvaev/intellij-dynamodb/issues/51) Table Name Exclude Pattern
+- [#53](https://github.com/AntonShuvaev/intellij-dynamodb/issues/53) Automatically add closing quota in Query in Data Browser
+### Changed
+- [#52](https://github.com/AntonShuvaev/intellij-dynamodb/issues/52) Improved search in the table view
+### Fixed
+- [#49](https://github.com/AntonShuvaev/intellij-dynamodb/issues/49) Fetching tables list takes too long
+- Other minor issues
+
 ## 2023.2.8 (2023-10-16)
 ### Added
 - JSON5 now supported in the request editor (allows trailing commas and property names without quotes)
