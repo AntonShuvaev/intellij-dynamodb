@@ -1,5 +1,10 @@
 Change Log
 ----------
+## 2023.3.1 (2023-01-12)
+### Fixed
+- [#54](https://github.com/AntonShuvaev/intellij-dynamodb/issues/54) Editor tab title is not properly displayed
+- Other minor issues
+
 ## 2023.3.0 (2023-11-27)
 ### Added
 - [#11](https://github.com/AntonShuvaev/intellij-dynamodb/issues/11) Show request logs and results in the Services tool window
