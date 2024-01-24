@@ -1,4 +1,4 @@
-## IntelliJ DynamoDB EULA
+## DynamoDB Plugin EULA
 
 "Developer" means Anton Shuvaev.
 
