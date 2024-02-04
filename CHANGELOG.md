@@ -1,6 +1,10 @@
 Change Log
 ----------
-## 2023.3.1 (2023-01-12)
+## 2023.3.2 (2024-02-04)
+### Fixed
+- Generated query is not valid when attribute begins with underscore
+
+## 2023.3.1 (2024-01-12)
 ### Fixed
 - [#54](https://github.com/AntonShuvaev/intellij-dynamodb/issues/54) Editor tab title is not properly displayed
 - Other minor issues
