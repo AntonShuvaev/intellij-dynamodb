@@ -1,5 +1,12 @@
 Change Log
 ----------
+## 2024.1.0 (2024-03-15)
+### Added
+- [#58](https://github.com/AntonShuvaev/intellij-dynamodb/issues/58) Ability to edit multiple items at once
+- Ability to create multiple items at once
+### Fixed
+- Other minor issues
+
 ## 2023.3.2 (2024-02-04)
 ### Fixed
 - Generated query is not valid when attribute begins with underscore
