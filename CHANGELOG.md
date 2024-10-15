@@ -1,5 +1,11 @@
 Change Log
 ----------
+## 2024.1.1 (2024-07-18)
+### Changed
+- Updated icons
+### Fixed
+- [#60](https://github.com/AntonShuvaev/intellij-dynamodb/issues/60) Query History doesn't work in DataGrip 2024.2 EAP
+
 ## 2024.1.0 (2024-03-15)
 ### Added
 - [#58](https://github.com/AntonShuvaev/intellij-dynamodb/issues/58) Ability to edit multiple items at once
