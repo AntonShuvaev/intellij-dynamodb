@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2026.1.0 (2026-03-22)
+### Added
+- Supported IDE 2026.1
+
 ## 2024.1.1 (2024-07-18)
 ### Changed
 - Updated icons
