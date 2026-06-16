@@ -1,5 +1,9 @@
 Change Log
 ----------
+## 2026.1.1 (2026-06-16)
+### Added
+- [#74](https://github.com/AntonShuvaev/intellij-dynamodb/issues/74) Added missing AWS regions (including eu-south-2) and the ability to enter a region code manually
+
 ## 2026.1.0 (2026-03-22)
 ### Added
 - Supported IDE 2026.1
